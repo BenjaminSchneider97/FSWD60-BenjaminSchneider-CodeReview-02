@@ -54,7 +54,7 @@ body{
 .bodycontainer{
 	width: 90%;
 	margin: 0 auto;
-	background-color: grey;
+	/* background-color: grey; */
 	height: 1000px;
 }
 .date{
@@ -73,7 +73,6 @@ body{
 	background-color: $BackgroundNews;
 	width: 100%;
 	padding: 0;
-	margin: 0 auto 0 auto;
 }
 .topnews ul{
 	padding: 0;
@@ -89,14 +88,13 @@ body{
 	font-size: 1.6em;
 }
 .firstimages{
-	width: 80%;
-	margin-top: 15px;
-	background-color: green;
+	width: 100%;
+	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
 }
 .img{
-	width: 30%;
+	flex-basis: 30%;
 }
 .img img{
 	width: 100%;
@@ -104,12 +102,31 @@ body{
 }
 .img figcaption {
 	padding: 3px;
-	background-color: black;
-	color: white;
+	background-color: #131313;
+	color: $ColorWhite;
 	position: relative;
-	min-height: 30%;
-	margin: -21% 0 0 0;
+	margin: -15% 0 0 0;
 	max-width: 100%;
-	font-size: 1.5em;
+	font-size: 1.6em;
 }
-
+.popular{
+	margin-top: 20px;
+	width: 100%;
+	@extend .topnews;
+}
+.firstpartcontainer{
+	display: flex;
+}
+.firstpartleftside{
+	flex: 9;
+}
+.firstpartrightside{
+	flex: 1;
+	justify-content: flex-end;
+}
+.firstpartrightside img{
+	display: block;
+	margin: 20px 0 0 20px;
+	height: 97.2%;
+	width: auto;
+}
