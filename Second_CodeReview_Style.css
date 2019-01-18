@@ -148,7 +148,7 @@ body {
   display: flex; }
 
 /* line 134, Second_CodeReview_Style.scss */
-.developerbanner img {
+.developerbanner a {
   margin: 20px auto 0 auto; }
 
 /* line 137, Second_CodeReview_Style.scss */
