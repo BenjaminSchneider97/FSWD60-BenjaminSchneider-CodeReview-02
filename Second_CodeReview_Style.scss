@@ -51,8 +51,14 @@ body{
 	transition: 0.3s;
 	color: $ColorNavBar;
 }
-.date{
+.bodycontainer{
 	width: 90%;
+	margin: 0 auto;
+	background-color: grey;
+	height: 1000px;
+}
+.date{
+	width: 100%;
 	margin: 0 auto;
 	padding: 0;
 	display: flex;
@@ -65,7 +71,7 @@ body{
 }
 .topnews{
 	background-color: $BackgroundNews;
-	width: 90%;
+	width: 100%;
 	padding: 0;
 	margin: 0 auto 0 auto;
 }
@@ -81,4 +87,25 @@ body{
 	color: $ColorNews;
 	line-height: 50px;
 	font-size: 1.6em;
+}
+.firstimages{
+	width: 80%;
+	margin-top: 15px;
+	background-color: green;
+	display: flex;
+	justify-content: space-between;
+}
+.img{
+	width: 30%;
+}
+.img img{
+	width: 100%;
+	height: auto;
+}
+.img figcaption{
+	position: relative;
+	bottom: 80px;
+	background-color: black;
+	color: white;
+	line-height: 2em;
 }

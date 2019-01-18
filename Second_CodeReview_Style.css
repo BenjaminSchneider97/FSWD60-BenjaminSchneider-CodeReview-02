@@ -1,9 +1,11 @@
+/* line 9, Second_CodeReview_Style.scss */
 body {
   background-color: #fff;
   margin: 0;
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif; }
 
+/* line 15, Second_CodeReview_Style.scss */
 .header {
   background-color: #5A1113;
   display: flex;
@@ -11,22 +13,27 @@ body {
   justify-content: space-around;
   margin-bottom: 0; }
 
+/* line 22, Second_CodeReview_Style.scss */
 .headerimg1 {
   margin: auto auto auto 20px; }
 
+/* line 25, Second_CodeReview_Style.scss */
 .headerimg2 {
   margin: auto 20px auto auto; }
 
+/* line 28, Second_CodeReview_Style.scss */
 .navbar {
   background-color: #131313;
   margin: 0; }
 
+/* line 32, Second_CodeReview_Style.scss */
 .ulist {
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none; }
 
+/* line 38, Second_CodeReview_Style.scss */
 .ulist li a {
   display: block;
   margin-left: 10px;
@@ -36,35 +43,49 @@ body {
   line-height: 50px;
   font-size: 1.6em; }
 
+/* line 47, Second_CodeReview_Style.scss */
 .currentsite {
   color: #7f8c8d; }
 
+/* line 50, Second_CodeReview_Style.scss */
 .ulist li a:hover {
   transition: 0.3s;
   color: #7f8c8d; }
 
-.date {
+/* line 54, Second_CodeReview_Style.scss */
+.bodycontainer {
   width: 90%;
+  margin: 0 auto;
+  background-color: grey;
+  height: 1000px; }
+
+/* line 60, Second_CodeReview_Style.scss */
+.date {
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   display: flex;
   height: 50px;
   justify-content: flex-end; }
 
+/* line 68, Second_CodeReview_Style.scss */
 .date p {
   margin: auto 0;
   padding: 0; }
 
+/* line 72, Second_CodeReview_Style.scss */
 .topnews {
   background-color: #DEDEDE;
-  width: 90%;
+  width: 100%;
   padding: 0;
   margin: 0 auto 0 auto; }
 
+/* line 78, Second_CodeReview_Style.scss */
 .topnews ul {
   padding: 0;
   margin: 0; }
 
+/* line 82, Second_CodeReview_Style.scss */
 .topnews ul li {
   display: block;
   margin-left: 10px;
@@ -73,5 +94,30 @@ body {
   color: #4C4C4C;
   line-height: 50px;
   font-size: 1.6em; }
+
+/* line 91, Second_CodeReview_Style.scss */
+.firstimages {
+  width: 80%;
+  margin-top: 15px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between; }
+
+/* line 98, Second_CodeReview_Style.scss */
+.img {
+  width: 30%; }
+
+/* line 101, Second_CodeReview_Style.scss */
+.img img {
+  width: 100%;
+  height: auto; }
+
+/* line 105, Second_CodeReview_Style.scss */
+.img figcaption {
+  position: relative;
+  bottom: 80px;
+  background-color: black;
+  color: white;
+  line-height: 2em; }
 
 /*# sourceMappingURL=Second_CodeReview_Style.css.map */
