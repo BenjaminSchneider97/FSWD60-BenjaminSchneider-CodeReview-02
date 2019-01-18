@@ -114,10 +114,13 @@ body {
 
 /* line 105, Second_CodeReview_Style.scss */
 .img figcaption {
-  position: relative;
-  bottom: 80px;
+  padding: 3px;
   background-color: black;
   color: white;
-  line-height: 2em; }
+  position: relative;
+  min-height: 30%;
+  margin: -21% 0 0 0;
+  max-width: 100%;
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=Second_CodeReview_Style.css.map */
