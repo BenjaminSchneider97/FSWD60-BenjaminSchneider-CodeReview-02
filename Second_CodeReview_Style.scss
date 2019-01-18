@@ -54,8 +54,6 @@ body{
 .bodycontainer{
 	width: 90%;
 	margin: 0 auto;
-	/* background-color: grey; */
-	height: 1000px;
 }
 .date{
 	width: 100%;
@@ -93,14 +91,14 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
-.img{
+.firstimages .img{
 	flex-basis: 30%;
 }
-.img img{
+.firstimages .img img{
 	width: 100%;
 	height: auto;
 }
-.img figcaption {
+.firstimages .img figcaption {
 	padding: 3px;
 	background-color: #131313;
 	color: $ColorWhite;
@@ -119,14 +117,82 @@ body{
 }
 .firstpartleftside{
 	flex: 9;
+	margin-right: 20px;
 }
 .firstpartrightside{
 	flex: 1;
 	justify-content: flex-end;
 }
 .firstpartrightside img{
-	display: block;
-	margin: 20px 0 0 20px;
+	margin: 20px 0 0 0px;
 	height: 97.2%;
 	width: auto;
+}
+.developerbanner{
+	display: flex;
+}
+.developerbanner img{
+	margin: 20px auto 0 auto;
+}
+.secondpartcontainer{
+ 	display: flex;
+}
+.secondpartleftside{
+	flex: 9;
+	margin-right: 20px;
+}
+.secondpartrightside{
+	flex: 1;
+	justify-content: flex-end;
+}
+.secondimages{
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.secondimages .img{
+	flex-basis: 45%;
+}
+.secondimages .img img{
+	width: 100%;
+	height: auto;
+}
+.secondpartrightside img{
+	margin: 20px 0 0 0px;
+	height: 97.8%;
+	width: auto;
+}
+.secondimages .img figcaption {
+	padding: 3px;
+	background-color: #131313;
+	color: $ColorWhite;
+	position: relative;
+	margin: -5% 0 0 0;
+	max-width: 100%;
+	font-size: 1.6em;
+}
+.footer{
+	margin-top: 50px;
+	width: 100%;
+	background-color: $BackgroundNavBar;
+	display: flex;
+	flex-direction: column;
+}
+.ulist .bl {
+	display: block;
+	margin-left: 10px;
+	padding: 3px 10px;
+	text-decoration: none;
+	color: $ColorWhite;
+	line-height: 50px;
+	font-size: 1.6em;
+}
+.footerimg{
+	margin: auto 20px auto auto;
+}
+.footertxt{
+	color: white;
+	margin: 0 auto;
+	font-size: 1.5em;
 }
