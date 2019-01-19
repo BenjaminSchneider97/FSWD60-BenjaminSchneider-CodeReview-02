@@ -302,6 +302,10 @@ body {
 
   /* line 266, Second_CodeReview_Style.scss */
   .secondimages .img figcaption {
-    margin: -5% 0 20px 0; } }
+    margin: -5% 0 20px 0; }
+
+  /* line 269, Second_CodeReview_Style.scss */
+  .secondpartleftside {
+    margin-right: 0px; } }
 
 /*# sourceMappingURL=Second_CodeReview_Style.css.map */
