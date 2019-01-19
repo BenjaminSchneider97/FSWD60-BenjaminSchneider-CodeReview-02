@@ -306,6 +306,14 @@ body {
 
   /* line 269, Second_CodeReview_Style.scss */
   .secondpartleftside {
-    margin-right: 0px; } }
+    margin-right: 0px; }
+
+  /* line 272, Second_CodeReview_Style.scss */
+  .down {
+    margin: 0 auto; }
+
+  /* line 275, Second_CodeReview_Style.scss */
+  .footerimg {
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=Second_CodeReview_Style.css.map */
