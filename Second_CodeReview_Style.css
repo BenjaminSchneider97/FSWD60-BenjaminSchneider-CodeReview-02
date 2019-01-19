@@ -95,20 +95,19 @@ body {
 /* line 88, Second_CodeReview_Style.scss */
 .firstimages {
   width: 100%;
-  margin-top: 20px;
   display: flex;
   justify-content: space-between; }
 
-/* line 94, Second_CodeReview_Style.scss */
+/* line 93, Second_CodeReview_Style.scss */
 .firstimages .img {
   flex-basis: 30%; }
 
-/* line 97, Second_CodeReview_Style.scss */
+/* line 96, Second_CodeReview_Style.scss */
 .firstimages .img img {
   width: 100%;
   height: auto; }
 
-/* line 101, Second_CodeReview_Style.scss */
+/* line 100, Second_CodeReview_Style.scss */
 .firstimages .img figcaption {
   padding: 3px;
   background-color: #131313;
@@ -118,14 +117,15 @@ body {
   max-width: 100%;
   font-size: 1.6em; }
 
-/* line 110, Second_CodeReview_Style.scss */
+/* line 109, Second_CodeReview_Style.scss */
 .popular {
   margin-top: 20px;
   width: 100%; }
 
-/* line 115, Second_CodeReview_Style.scss */
+/* line 114, Second_CodeReview_Style.scss */
 .firstpartcontainer {
-  display: flex; }
+  display: flex;
+  margin-top: 20px; }
 
 /* line 118, Second_CodeReview_Style.scss */
 .firstpartleftside {
@@ -135,25 +135,25 @@ body {
 /* line 122, Second_CodeReview_Style.scss */
 .firstpartrightside {
   flex: 1;
-  justify-content: flex-end; }
+  text-align: right; }
 
 /* line 126, Second_CodeReview_Style.scss */
 .firstpartrightside img {
-  margin: 20px 0 0 0px;
-  height: 97.2%;
+  height: 100%;
   width: auto; }
 
-/* line 131, Second_CodeReview_Style.scss */
+/* line 130, Second_CodeReview_Style.scss */
 .developerbanner {
   display: flex; }
 
-/* line 134, Second_CodeReview_Style.scss */
+/* line 133, Second_CodeReview_Style.scss */
 .developerbanner a {
   margin: 20px auto 0 auto; }
 
-/* line 137, Second_CodeReview_Style.scss */
+/* line 136, Second_CodeReview_Style.scss */
 .secondpartcontainer {
-  display: flex; }
+  display: flex;
+  margin-top: 20px; }
 
 /* line 140, Second_CodeReview_Style.scss */
 .secondpartleftside {
@@ -163,31 +163,29 @@ body {
 /* line 144, Second_CodeReview_Style.scss */
 .secondpartrightside {
   flex: 1;
-  justify-content: flex-end; }
+  text-align: right; }
 
 /* line 148, Second_CodeReview_Style.scss */
 .secondimages {
   width: 100%;
-  margin-top: 20px;
   display: flex;
   justify-content: space-between; }
 
-/* line 154, Second_CodeReview_Style.scss */
+/* line 153, Second_CodeReview_Style.scss */
 .secondimages .img {
   flex-basis: 45%; }
 
-/* line 157, Second_CodeReview_Style.scss */
+/* line 156, Second_CodeReview_Style.scss */
 .secondimages .img img {
   width: 100%;
   height: auto; }
 
-/* line 161, Second_CodeReview_Style.scss */
+/* line 160, Second_CodeReview_Style.scss */
 .secondpartrightside img {
-  margin: 20px 0 0 0px;
-  height: 97.8%;
+  height: 100%;
   width: auto; }
 
-/* line 166, Second_CodeReview_Style.scss */
+/* line 164, Second_CodeReview_Style.scss */
 .secondimages .img figcaption {
   padding: 3px;
   background-color: #131313;
@@ -197,7 +195,11 @@ body {
   max-width: 100%;
   font-size: 1.6em; }
 
-/* line 175, Second_CodeReview_Style.scss */
+/* line 173, Second_CodeReview_Style.scss */
+.iltwo {
+  margin-top: 20px; }
+
+/* line 176, Second_CodeReview_Style.scss */
 .footer {
   margin-top: 50px;
   width: 100%;
@@ -205,7 +207,7 @@ body {
   display: flex;
   flex-direction: column; }
 
-/* line 182, Second_CodeReview_Style.scss */
+/* line 183, Second_CodeReview_Style.scss */
 .ulist .bl {
   display: block;
   margin-left: 10px;
@@ -215,11 +217,11 @@ body {
   line-height: 50px;
   font-size: 1.6em; }
 
-/* line 191, Second_CodeReview_Style.scss */
+/* line 192, Second_CodeReview_Style.scss */
 .footerimg {
   margin: auto 20px auto auto; }
 
-/* line 194, Second_CodeReview_Style.scss */
+/* line 195, Second_CodeReview_Style.scss */
 .footertxt {
   color: white;
   margin: 0 auto;
