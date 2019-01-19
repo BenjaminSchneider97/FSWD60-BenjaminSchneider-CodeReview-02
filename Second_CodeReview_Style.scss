@@ -40,16 +40,16 @@ body{
 	margin-left: 10px;
 	padding: 3px 10px;
 	text-decoration: none;
-	color: $ColorWhite;
+	color: $ColorNavBar;
 	line-height: 50px;
 	font-size: 1.6em;
 }
 .currentsite{
-	color: $ColorNavBar;
+	color: $ColorWhite;
 }
 .ulist li a:hover{
 	transition: 0.3s;
-	color: $ColorNavBar;
+	color: $ColorWhite;
 }
 .bodycontainer{
 	width: 90%;
@@ -298,6 +298,9 @@ body{
 	margin: 20px 0 110px 0;
 	display: flex;
 	justify-content: space-between;
+}
+.sidepagecontent h1{
+	margin: auto;
 }
 .sidepagecontent .img{
 	flex-basis: 30%;
