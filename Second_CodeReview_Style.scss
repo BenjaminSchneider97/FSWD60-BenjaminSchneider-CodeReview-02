@@ -133,6 +133,11 @@ body{
 .developerbanner a{
 	margin: 20px auto 0 auto;
 }
+.developerbanner img{
+	max-width: 690px;
+	width: 100%;
+	height: auto;
+}
 .secondpartcontainer{
  	display: flex;
  	margin-top: 20px;
@@ -211,7 +216,7 @@ body{
 	.secondimages .img figcaption {
 		font-size: 125%;
 	}
-	.ulist{
+	.up{
 		justify-content: space-around;
 	}
 }
@@ -220,7 +225,13 @@ body{
 	.headerimg2 {
 		display: none;
 	}
-	.ulist{
+	.developerbanner{
+		display: none;
+	}
+	.secondpartrightside{
+		display: none;
+	}
+	.up{
 		justify-content: space-around;
 	}
 }
