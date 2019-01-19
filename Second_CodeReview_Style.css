@@ -129,7 +129,7 @@ body {
 
 /* line 118, Second_CodeReview_Style.scss */
 .firstpartleftside {
-  flex: 9;
+  flex: 8;
   margin-right: 20px; }
 
 /* line 122, Second_CodeReview_Style.scss */
@@ -157,7 +157,7 @@ body {
 
 /* line 140, Second_CodeReview_Style.scss */
 .secondpartleftside {
-  flex: 9;
+  flex: 7;
   margin-right: 20px; }
 
 /* line 144, Second_CodeReview_Style.scss */
@@ -226,5 +226,34 @@ body {
   color: white;
   margin: 0 auto;
   font-size: 1.5em; }
+
+@media screen and (max-width: 1000px) {
+  /* line 202, Second_CodeReview_Style.scss */
+  .firstpartrightside {
+    display: none; }
+
+  /* line 205, Second_CodeReview_Style.scss */
+  .firstpartleftside {
+    margin-right: 0; }
+
+  /* line 208, Second_CodeReview_Style.scss */
+  .firstimages .img figcaption {
+    font-size: 125%; }
+
+  /* line 211, Second_CodeReview_Style.scss */
+  .secondimages .img figcaption {
+    font-size: 125%; }
+
+  /* line 214, Second_CodeReview_Style.scss */
+  .ulist {
+    justify-content: space-around; } }
+@media screen and (max-width: 550px) {
+  /* line 220, Second_CodeReview_Style.scss */
+  .headerimg2 {
+    display: none; }
+
+  /* line 223, Second_CodeReview_Style.scss */
+  .ulist {
+    justify-content: space-around; } }
 
 /*# sourceMappingURL=Second_CodeReview_Style.css.map */
