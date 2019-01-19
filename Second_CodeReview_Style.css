@@ -1,11 +1,13 @@
-/* line 9, Second_CodeReview_Style.scss */
+/* This is for the main body background */
+/* line 10, Second_CodeReview_Style.scss */
 body {
   background-color: #fff;
   margin: 0;
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif; }
 
-/* line 15, Second_CodeReview_Style.scss */
+/* This is for the header and its content */
+/* line 17, Second_CodeReview_Style.scss */
 .header {
   background-color: #5A1113;
   display: flex;
@@ -13,27 +15,28 @@ body {
   justify-content: space-around;
   margin-bottom: 0; }
 
-/* line 22, Second_CodeReview_Style.scss */
+/* line 24, Second_CodeReview_Style.scss */
 .headerimg1 {
   margin: auto auto auto 20px; }
 
-/* line 25, Second_CodeReview_Style.scss */
+/* line 27, Second_CodeReview_Style.scss */
 .headerimg2 {
   margin: auto 20px auto auto; }
 
-/* line 28, Second_CodeReview_Style.scss */
+/* This is for the navbar */
+/* line 31, Second_CodeReview_Style.scss */
 .navbar {
   background-color: #131313;
   margin: 0; }
 
-/* line 32, Second_CodeReview_Style.scss */
+/* line 35, Second_CodeReview_Style.scss */
 .ulist {
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none; }
 
-/* line 38, Second_CodeReview_Style.scss */
+/* line 41, Second_CodeReview_Style.scss */
 .ulist li a {
   display: block;
   margin-left: 10px;
@@ -43,21 +46,24 @@ body {
   line-height: 50px;
   font-size: 1.6em; }
 
-/* line 47, Second_CodeReview_Style.scss */
+/* This is the color the navbars link has for the current site you are on + hover effect */
+/* line 51, Second_CodeReview_Style.scss */
 .currentsite {
   color: #fff; }
 
-/* line 50, Second_CodeReview_Style.scss */
+/* line 54, Second_CodeReview_Style.scss */
 .ulist li a:hover {
   transition: 0.3s;
   color: #fff; }
 
-/* line 54, Second_CodeReview_Style.scss */
+/* This is for everything below the navbar to be only 90% width */
+/* line 59, Second_CodeReview_Style.scss */
 .bodycontainer {
   width: 90%;
   margin: 0 auto; }
 
-/* line 58, Second_CodeReview_Style.scss */
+/* This is for the date on the side of the page */
+/* line 64, Second_CodeReview_Style.scss */
 .date {
   width: 100%;
   margin: 0 auto;
@@ -66,23 +72,24 @@ body {
   height: 50px;
   justify-content: flex-end; }
 
-/* line 66, Second_CodeReview_Style.scss */
+/* line 72, Second_CodeReview_Style.scss */
 .date p {
   margin: auto 0;
   padding: 0; }
 
-/* line 70, Second_CodeReview_Style.scss */
+/* This is the top news bar */
+/* line 77, Second_CodeReview_Style.scss */
 .topnews, .popular {
   background-color: #DEDEDE;
   width: 100%;
   padding: 0; }
 
-/* line 75, Second_CodeReview_Style.scss */
+/* line 82, Second_CodeReview_Style.scss */
 .topnews ul, .popular ul {
   padding: 0;
   margin: 0; }
 
-/* line 79, Second_CodeReview_Style.scss */
+/* line 86, Second_CodeReview_Style.scss */
 .topnews ul li, .popular ul li {
   display: block;
   margin-left: 10px;
@@ -92,31 +99,35 @@ body {
   line-height: 50px;
   font-size: 1.6em; }
 
-/* line 88, Second_CodeReview_Style.scss */
+/* This is for the first three images */
+/* line 96, Second_CodeReview_Style.scss */
 .firstimages {
   width: 100%;
   display: flex;
   justify-content: space-between; }
 
-/* line 93, Second_CodeReview_Style.scss */
+/* line 101, Second_CodeReview_Style.scss */
 .firstimages .img {
   flex-basis: 30%; }
 
+/* This is for the images to be responsive only for tablet or desktop width */
 @media screen and (min-width: 550px) {
-  /* line 97, Second_CodeReview_Style.scss */
+  /* line 106, Second_CodeReview_Style.scss */
   .firstimages .img img {
     width: 100%;
     height: auto; }
 
-  /* line 101, Second_CodeReview_Style.scss */
+  /* line 110, Second_CodeReview_Style.scss */
   .firstpartrightside img {
     height: 100%;
     width: auto; } }
+/* This won't show the images we see in mobile version */
 @media screen and (min-width: 551px) {
-  /* line 107, Second_CodeReview_Style.scss */
+  /* line 117, Second_CodeReview_Style.scss */
   .imgbanner {
     display: none; } }
-/* line 111, Second_CodeReview_Style.scss */
+/* This is for the descriptions of the images to be backgrounded and slightly pushed upwards */
+/* line 122, Second_CodeReview_Style.scss */
 .firstimages .img figcaption {
   padding: 3px;
   background-color: #131313;
@@ -126,80 +137,91 @@ body {
   max-width: 100%;
   font-size: 1.6em; }
 
-/* line 120, Second_CodeReview_Style.scss */
+/* This removes the link layout for the articles */
+/* line 132, Second_CodeReview_Style.scss */
 .firstimages .img a {
   text-decoration: none; }
 
-/* line 123, Second_CodeReview_Style.scss */
+/* This is the popular bar */
+/* line 136, Second_CodeReview_Style.scss */
 .popular {
   margin-top: 20px;
   width: 100%; }
 
-/* line 128, Second_CodeReview_Style.scss */
+/* This is for the first six pictures including the popular bar to bin in one flexbox */
+/* line 142, Second_CodeReview_Style.scss */
 .firstpartcontainer {
   display: flex;
   margin-top: 20px; }
 
-/* line 132, Second_CodeReview_Style.scss */
+/* This is for the images to be positioned */
+/* line 147, Second_CodeReview_Style.scss */
 .firstpartleftside {
   flex: 8;
   margin-right: 20px; }
 
-/* line 136, Second_CodeReview_Style.scss */
+/* This is for the blue banner to be positioned */
+/* line 152, Second_CodeReview_Style.scss */
 .firstpartrightside {
   flex: 1;
   text-align: right; }
 
-/* line 140, Second_CodeReview_Style.scss */
+/* This is the developer banner between the images */
+/* line 157, Second_CodeReview_Style.scss */
 .developerbanner {
   display: flex; }
 
-/* line 143, Second_CodeReview_Style.scss */
+/* line 160, Second_CodeReview_Style.scss */
 .developerbanner a {
   margin: 20px auto 0 auto; }
 
-/* line 146, Second_CodeReview_Style.scss */
+/* line 163, Second_CodeReview_Style.scss */
 .developerbanner img {
   max-width: 690px;
   width: 100%;
   height: auto; }
 
-/* line 151, Second_CodeReview_Style.scss */
+/* This is for the images below the coder banner and the yellow banner */
+/* line 169, Second_CodeReview_Style.scss */
 .secondpartcontainer {
   display: flex;
   margin-top: 20px; }
 
-/* line 155, Second_CodeReview_Style.scss */
+/* This is the four images on the left */
+/* line 174, Second_CodeReview_Style.scss */
 .secondpartleftside {
   flex: 7;
   margin-right: 20px; }
 
-/* line 159, Second_CodeReview_Style.scss */
+/* This is the yellow banner on the right */
+/* line 179, Second_CodeReview_Style.scss */
 .secondpartrightside {
   flex: 1;
   text-align: right; }
 
-/* line 163, Second_CodeReview_Style.scss */
+/* line 183, Second_CodeReview_Style.scss */
 .secondimages {
   width: 100%;
   display: flex;
   justify-content: space-between; }
 
-/* line 168, Second_CodeReview_Style.scss */
+/* line 188, Second_CodeReview_Style.scss */
 .secondimages .img {
   flex-basis: 47.5%; }
 
+/* This is for the second pictures to be responsive just for desktop and tablet width */
 @media screen and (min-width: 550px) {
-  /* line 172, Second_CodeReview_Style.scss */
+  /* line 193, Second_CodeReview_Style.scss */
   .secondimages .img img {
     width: 100%;
     height: auto; }
 
-  /* line 176, Second_CodeReview_Style.scss */
+  /* line 197, Second_CodeReview_Style.scss */
   .secondpartrightside img {
     height: 100%;
     width: auto; } }
-/* line 181, Second_CodeReview_Style.scss */
+/* This is for the second images description */
+/* line 203, Second_CodeReview_Style.scss */
 .secondimages .img figcaption {
   padding: 3px;
   background-color: #131313;
@@ -209,15 +231,17 @@ body {
   max-width: 100%;
   font-size: 1.6em; }
 
-/* line 190, Second_CodeReview_Style.scss */
+/* line 212, Second_CodeReview_Style.scss */
 .secondimages .img a {
   text-decoration: none; }
 
-/* line 193, Second_CodeReview_Style.scss */
+/* This is for the space over the images */
+/* line 216, Second_CodeReview_Style.scss */
 .iltwo {
   margin-top: 20px; }
 
-/* line 196, Second_CodeReview_Style.scss */
+/* This is the styling for the footer */
+/* line 220, Second_CodeReview_Style.scss */
 .footer {
   margin-top: 50px;
   width: 100%;
@@ -225,7 +249,7 @@ body {
   display: flex;
   flex-direction: column; }
 
-/* line 203, Second_CodeReview_Style.scss */
+/* line 227, Second_CodeReview_Style.scss */
 .ulist .bl {
   display: block;
   margin-left: 10px;
@@ -235,132 +259,135 @@ body {
   line-height: 50px;
   font-size: 1.6em; }
 
-/* line 212, Second_CodeReview_Style.scss */
+/* line 236, Second_CodeReview_Style.scss */
 .footerimg {
   margin: auto 20px auto auto; }
 
-/* line 215, Second_CodeReview_Style.scss */
+/* line 239, Second_CodeReview_Style.scss */
 .footertxt {
   color: white;
   margin: 0 auto;
   font-size: 1.5em; }
 
+/* This is for the layout in tablet mode */
 @media screen and (max-width: 1000px) {
-  /* line 221, Second_CodeReview_Style.scss */
+  /* line 246, Second_CodeReview_Style.scss */
   .firstpartrightside {
     display: none; }
 
-  /* line 224, Second_CodeReview_Style.scss */
+  /* line 249, Second_CodeReview_Style.scss */
   .firstpartleftside {
     margin-right: 0; }
 
-  /* line 227, Second_CodeReview_Style.scss */
+  /* line 252, Second_CodeReview_Style.scss */
   .firstimages .img figcaption {
     font-size: 125%; }
 
-  /* line 230, Second_CodeReview_Style.scss */
+  /* line 255, Second_CodeReview_Style.scss */
   .secondimages .img figcaption {
     font-size: 125%; }
 
-  /* line 233, Second_CodeReview_Style.scss */
+  /* line 258, Second_CodeReview_Style.scss */
   .up {
     justify-content: space-around; }
 
-  /* line 236, Second_CodeReview_Style.scss */
+  /* line 261, Second_CodeReview_Style.scss */
   .sidepagecontent {
     flex-wrap: wrap; } }
+/* This is for the layout in mobile mode */
 @media screen and (max-width: 550px) {
-  /* line 241, Second_CodeReview_Style.scss */
+  /* line 267, Second_CodeReview_Style.scss */
   .headerimg2 {
     display: none; }
 
-  /* line 244, Second_CodeReview_Style.scss */
+  /* line 270, Second_CodeReview_Style.scss */
   .developerbanner {
     display: none; }
 
-  /* line 247, Second_CodeReview_Style.scss */
+  /* line 273, Second_CodeReview_Style.scss */
   .secondpartrightside {
     display: none; }
 
-  /* line 250, Second_CodeReview_Style.scss */
+  /* line 276, Second_CodeReview_Style.scss */
   .up {
     justify-content: space-around; }
 
-  /* line 253, Second_CodeReview_Style.scss */
+  /* line 279, Second_CodeReview_Style.scss */
   .ilone {
     flex-direction: column; }
 
-  /* line 256, Second_CodeReview_Style.scss */
+  /* line 282, Second_CodeReview_Style.scss */
   .iltwo {
     flex-direction: column; }
 
-  /* line 259, Second_CodeReview_Style.scss */
+  /* line 285, Second_CodeReview_Style.scss */
   .firstimages .img img {
     width: 100%;
     height: auto; }
 
-  /* line 263, Second_CodeReview_Style.scss */
+  /* line 289, Second_CodeReview_Style.scss */
   .firstimages .img figcaption {
     margin: -5% 0 20px 0; }
 
-  /* line 266, Second_CodeReview_Style.scss */
+  /* line 292, Second_CodeReview_Style.scss */
   .secondpartcontainer {
     margin-top: 0; }
 
-  /* line 269, Second_CodeReview_Style.scss */
+  /* line 295, Second_CodeReview_Style.scss */
   .secondimages .img img {
     width: 100%;
     height: auto; }
 
-  /* line 273, Second_CodeReview_Style.scss */
+  /* line 299, Second_CodeReview_Style.scss */
   .secondimages .img figcaption {
     margin: -5% 0 20px 0; }
 
-  /* line 276, Second_CodeReview_Style.scss */
+  /* line 302, Second_CodeReview_Style.scss */
   .secondpartleftside {
     margin-right: 0px; }
 
-  /* line 279, Second_CodeReview_Style.scss */
+  /* line 305, Second_CodeReview_Style.scss */
   .down {
     margin: 0 auto; }
 
-  /* line 282, Second_CodeReview_Style.scss */
+  /* line 308, Second_CodeReview_Style.scss */
   .footerimg {
     margin: 0 auto; }
 
-  /* line 285, Second_CodeReview_Style.scss */
+  /* line 311, Second_CodeReview_Style.scss */
   .sidepagecontent {
     flex-direction: column; }
 
-  /* line 288, Second_CodeReview_Style.scss */
+  /* line 314, Second_CodeReview_Style.scss */
   .sidepagecontent .img img {
     width: 100%;
     height: auto; }
 
-  /* line 292, Second_CodeReview_Style.scss */
+  /* line 318, Second_CodeReview_Style.scss */
   .sidepagecontent .img a figcaption {
     margin: -5% 0 20px 0;
     font-size: 125%; } }
-/* line 297, Second_CodeReview_Style.scss */
+/* This is for all the content on the side pages */
+/* line 324, Second_CodeReview_Style.scss */
 .sidepagecontent {
   margin: 20px 0 110px 0;
   display: flex;
   justify-content: space-between; }
 
-/* line 302, Second_CodeReview_Style.scss */
+/* line 329, Second_CodeReview_Style.scss */
 .sidepagecontent h1 {
-  margin: auto; }
+  margin: auto auto 405px; }
 
-/* line 305, Second_CodeReview_Style.scss */
+/* line 332, Second_CodeReview_Style.scss */
 .sidepagecontent .img {
   flex-basis: 30%; }
 
-/* line 308, Second_CodeReview_Style.scss */
+/* line 335, Second_CodeReview_Style.scss */
 .sidepagecontent .img img {
   width: 100%;
   height: auto; }
 
-/* line 312, Second_CodeReview_Style.scss */
+/* line 339, Second_CodeReview_Style.scss */
 .sidepagecontent .img figcaption {
   padding: 3px;
   background-color: #131313;
@@ -370,8 +397,12 @@ body {
   max-width: 100%;
   font-size: 1.6em; }
 
-/* line 321, Second_CodeReview_Style.scss */
+/* line 348, Second_CodeReview_Style.scss */
 .sidepagecontent .img a {
   text-decoration: none; }
+
+/* line 351, Second_CodeReview_Style.scss */
+.sidepagecontent .img iframe {
+  margin-bottom: 68px; }
 
 /*# sourceMappingURL=Second_CodeReview_Style.css.map */

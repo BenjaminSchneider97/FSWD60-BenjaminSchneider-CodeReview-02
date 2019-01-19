@@ -6,12 +6,14 @@ $BackgroundHeading: #5A1113;
 $BackgroundNavBar: #131313;
 $BackgroundNews: #DEDEDE;
 
+/* This is for the main body background */
 body{
 	background-color: $BackgroundWhite;
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+/* This is for the header and its content */
 .header{
 	background-color: $BackgroundHeading;
 	display: flex;
@@ -25,6 +27,7 @@ body{
 .headerimg2{
 	margin: auto 20px auto auto;
 }
+/* This is for the navbar */
 .navbar{
 		background-color: $BackgroundNavBar;
 		margin: 0;
@@ -44,6 +47,7 @@ body{
 	line-height: 50px;
 	font-size: 1.6em;
 }
+/* This is the color the navbars link has for the current site you are on + hover effect */
 .currentsite{
 	color: $ColorWhite;
 }
@@ -51,10 +55,12 @@ body{
 	transition: 0.3s;
 	color: $ColorWhite;
 }
+/* This is for everything below the navbar to be only 90% width */
 .bodycontainer{
 	width: 90%;
 	margin: 0 auto;
 }
+/* This is for the date on the side of the page */
 .date{
 	width: 100%;
 	margin: 0 auto;
@@ -67,6 +73,7 @@ body{
 	margin: auto 0;
 	padding: 0;
 }
+/* This is the top news bar */
 .topnews{
 	background-color: $BackgroundNews;
 	width: 100%;
@@ -85,6 +92,7 @@ body{
 	line-height: 50px;
 	font-size: 1.6em;
 }
+/* This is for the first three images */
 .firstimages{
 	width: 100%;
 	display: flex;
@@ -93,6 +101,7 @@ body{
 .firstimages .img{
 	flex-basis: 30%;
 }
+/* This is for the images to be responsive only for tablet or desktop width */
 @media screen and (min-width: 550px){
 	.firstimages .img img{
 		width: 100%;
@@ -103,11 +112,13 @@ body{
 		width: auto;
 	}
 }
+/* This won't show the images we see in mobile version */
 @media screen and (min-width: 551px){
 	.imgbanner{
 		display: none;
 	}
 }
+/* This is for the descriptions of the images to be backgrounded and slightly pushed upwards */
 .firstimages .img figcaption {
 	padding: 3px;
 	background-color: #131313;
@@ -117,26 +128,32 @@ body{
 	max-width: 100%;
 	font-size: 1.6em;
 }
+/* This removes the link layout for the articles */
 .firstimages .img a {
 	text-decoration: none;
 }
+/* This is the popular bar */
 .popular{
 	margin-top: 20px;
 	width: 100%;
 	@extend .topnews;
 }
+/* This is for the first six pictures including the popular bar to bin in one flexbox */
 .firstpartcontainer{
 	display: flex;
 	margin-top: 20px;
 }
+/* This is for the images to be positioned */
 .firstpartleftside{
 	flex: 8;
 	margin-right: 20px;
 }
+/* This is for the blue banner to be positioned */
 .firstpartrightside{
 	flex: 1;
 	text-align: right;
 }
+/* This is the developer banner between the images */
 .developerbanner{
 	display: flex;
 }
@@ -148,14 +165,17 @@ body{
 	width: 100%;
 	height: auto;
 }
+/* This is for the images below the coder banner and the yellow banner */
 .secondpartcontainer{
  	display: flex;
  	margin-top: 20px;
 }
+/* This is the four images on the left */
 .secondpartleftside{
 	flex: 7;
 	margin-right: 20px;
 }
+/* This is the yellow banner on the right */
 .secondpartrightside{
 	flex: 1;
 	text-align: right;
@@ -168,6 +188,7 @@ body{
 .secondimages .img{
 	flex-basis: 47.5%;
 }
+/* This is for the second pictures to be responsive just for desktop and tablet width */
 @media screen and (min-width: 550px){
 	.secondimages .img img{
 		width: 100%;
@@ -178,6 +199,7 @@ body{
 		width: auto;
 	}
 }
+/* This is for the second images description */
 .secondimages .img figcaption {
 	padding: 3px;
 	background-color: #131313;
@@ -190,9 +212,11 @@ body{
 .secondimages .img a{
 	text-decoration: none;
 }
+/* This is for the space over the images */
 .iltwo{
 	margin-top: 20px;
 }
+/* This is the styling for the footer */
 .footer{
 	margin-top: 50px;
 	width: 100%;
@@ -217,6 +241,7 @@ body{
 	margin: 0 auto;
 	font-size: 1.5em;
 }
+/* This is for the layout in tablet mode */
 @media screen and (max-width: 1000px){
 	.firstpartrightside {
 		display: none;
@@ -237,6 +262,7 @@ body{
 		flex-wrap: wrap;
 	}
 }
+/* This is for the layout in mobile mode */
 @media screen and (max-width: 550px){
 	.headerimg2 {
 		display: none;
@@ -294,13 +320,14 @@ body{
 		font-size: 125%;
 	}
 }
+/* This is for all the content on the side pages */
 .sidepagecontent{
 	margin: 20px 0 110px 0;
 	display: flex;
 	justify-content: space-between;
 }
 .sidepagecontent h1{
-	margin: auto;
+	margin: auto auto 405px;
 }
 .sidepagecontent .img{
 	flex-basis: 30%;
@@ -320,4 +347,7 @@ body{
 }
 .sidepagecontent .img a{
 	text-decoration: none;
+}
+.sidepagecontent .img iframe {
+	margin-bottom: 68px;
 }
